@@ -1,0 +1,12 @@
+GET http://localhost:6005
+
+###
+POST  http://localhost:6005/auth/login
+
+###
+POST  http://localhost:6005/auth/register
+###
+DELETE   http://localhost:6005/auth/logout
+
+###
+POST  http://localhost:6005/auth/refresh-token
